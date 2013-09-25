@@ -1,0 +1,81 @@
+#navbar{
+	max-width: 100%;
+	text-align: center;
+}
+
+#navbar li{
+	background: rgba(0,0,0,0.5);
+	display: inline-block;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin: 0;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#navbar a{
+	text-decoration: none;
+	color: white;
+}
+
+#navbar .current{
+	display: none;
+}
+
+#sidebar{
+	width: 30%;
+	min-width: 320px;
+	float: left;
+	background: rgba(0,0,0,0.1);
+	border: 1px solid rgba(0,0,0,0.2);
+	overflow:auto;
+}
+
+#main-container{
+	max-width: 850px;
+	float: right;
+}
+
+#main-container img{
+	max-width: 100%;
+}
+
+.examples{
+	clear: both;
+}
+
+.examples img{
+	max-width: 500px;
+	display: inline;
+}
+
+@media screen and (max-width: 850px){
+	#main-container{
+		padding: 5%;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	#navbar li{
+		display: none;
+	}
+
+	#navbar .current{
+		display: block;
+		background: url(http://www.semo.edu/menu_icon_2012.png) no-repeat;
+		background-size: 20px 20px;
+	}
+
+	#navbar:hover li{
+		display: block;
+	}
+
+	.examples{
+		display: block;
+	}
+
+	.examples img{
+		padding: 1%;
+		max-width: 250px;		
+	}
+}
