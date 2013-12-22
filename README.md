@@ -2,8 +2,8 @@ Responsive Web Design
 ----------------------
 
 ####Resources
-[A List Apart: Responsive Web Design](http://alistapart.com/article/responsive-web-design)
-[Shay Howe: Responsive Web Design](http://learn.shayhowe.com/advanced-html-css/responsive-web-design)
+* [A List Apart: Responsive Web Design](http://alistapart.com/article/responsive-web-design)
+* [Shay Howe: Responsive Web Design](http://learn.shayhowe.com/advanced-html-css/responsive-web-design)
 
 ####Background
 The time is now to treat mobile devices as first-class citizens. Mobile devices have eclipsed desktop web usage. Responsive Design is the set of principles and techniques that allow you to serve a single codebase that adapts to different devices. Media Queries, a new feature in CSS3, is the primary enabler. Instead of building two completely different codebases, one for mobile and one for desktop, we design a single site with a few rules defined for how elements should adapt within different devices.
